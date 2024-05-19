@@ -1,1 +1,17 @@
-/* You can add global styles to this file, and also import other style files */
+:root{
+    --primary-color: #017301;
+    --secondary-color: #cf3b2f;
+    --tertiary-color: #262626;
+    --quaternary-color: #ff8800;
+    --quinary-color: #01730106;
+    --primary-font: 'Josefin Sans', sans-serif;
+    --secondary-font: 'Berkshire Swash', cursive;
+    --tertiary-font: 'Times New Roman', serif;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
