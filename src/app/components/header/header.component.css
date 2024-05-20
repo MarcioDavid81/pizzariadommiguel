@@ -34,6 +34,12 @@
 .logo>a>img{
     width: 115px;
     height: 70px;
+    transition: 0.5s;
+
+    &:hover{
+        transform: scale(1.05);
+        filter: drop-shadow(0 0 5px var(--primary-color));
+    }
 }
 
 nav{
@@ -53,6 +59,7 @@ nav{
                 text-decoration: none;
                 color: var(--tertiary-color);
                 transition: 0.5s;
+                cursor: pointer;
 
                 &:hover{
                     color: var(--secondary-color);
@@ -75,7 +82,7 @@ nav{
         font-size: 20px;
         color: white;
         background-color: var(--secondary-color);
-        padding: 10px 20px;
+        padding: 10px 40px;
         border: none;
         border-radius: 20px;
         cursor: pointer;
