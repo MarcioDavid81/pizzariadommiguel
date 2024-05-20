@@ -20,10 +20,70 @@
 .container{
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
     background-color: var(--quinary-color);
 }
 
+.logo{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding-right: 250px;
+}
 .logo>a>img{
     width: 115px;
     height: 70px;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+
+    ul{
+        display: flex;
+        list-style: none;
+        gap: 50px;
+
+        li{
+            a{
+                font-size: 20px;
+                font-weight: 600;
+                font-family: var(--primary-font);
+                text-decoration: none;
+                color: var(--tertiary-color);
+                transition: 0.5s;
+
+                &:hover{
+                    color: var(--secondary-color);
+                }
+                &:active{
+                    color: var(--secondary-color);
+                }
+            }
+        }
+    }
+}
+
+.btn-contato{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    button{
+        font-family: var(--primary-font);
+        font-size: 20px;
+        color: white;
+        background-color: var(--secondary-color);
+        padding: 10px 20px;
+        border: none;
+        border-radius: 20px;
+        cursor: pointer;
+        transition: 0.5s;
+
+        &:hover{
+            transform: scale(1.05);
+            box-shadow: 0 0 5px rgb(0, 0, 0);
+        }
+    }
 }
