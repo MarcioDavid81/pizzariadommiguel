@@ -1,0 +1,29 @@
+.sociais{
+    display: flex;
+    justify-content: end;
+    padding: 5px 100px 5px 0px;
+    background-color: var(--primary-color);
+    font-size: 25px;
+    gap: 36px;
+    
+    i{
+        color: var(--tertiary-color);
+        transition: 0.5s;
+
+        &:hover{
+            color: var(--secondary-color);
+            filter: drop-shadow(0 0 5px var(--secondary-color));
+        }
+    }
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    background-color: var(--quinary-color);
+}
+
+.logo>a>img{
+    width: 115px;
+    height: 70px;
+}
