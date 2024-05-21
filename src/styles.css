@@ -1,6 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
 
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'Josefin Sans', sans-serif;
+    src: url("./fonts/JosefinSans-VariableFont_wght.ttf") format('truetype');
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Berkshire Swash', cursive;
+    src: url("./fonts/BerkshireSwash-Regular.ttf") format('truetype');
+    font-style: normal;
+    font-display: swap;
+}
+
 :root{
     --primary-color: #017301;
     --secondary-color: #cf3b2f;
