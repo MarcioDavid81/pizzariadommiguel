@@ -1,6 +1,6 @@
 # Pizzaria Dom Miguel
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.7.
+Projeto desenvolvido utilizando [Angular CLI](https://github.com/angular/angular-cli) versão 17.3.7.
 
 ## Development server
 
