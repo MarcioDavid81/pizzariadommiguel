@@ -25,21 +25,21 @@
 }
 
 .cardapio{
-    background-image: url(../../../assets/Parallax.png);
+    background-image: url(../../../assets/parede.jpg);
     width: 100%;
-    height: 650px;
+    height: 100%;
     background-attachment: fixed;
     padding: 50px 0;
 
     h1{
         font-family: var(--secondary-font);
         font-size: 70px;
-        color: var(--secondary-color);
+        color: white;
     }
     p{
         font-family: var(--primary-font);
         font-size: 35px;
-        color: var(--tertiary-color);
+        color: white;
         font-weight: 300;
     }
 }
