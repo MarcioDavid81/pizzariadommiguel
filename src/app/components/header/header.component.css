@@ -1,22 +1,66 @@
+/* banner sociais */
 .sociais{
+    background: var(--primary-color);
+    width: 100%;
+    height: 50px;
     display: flex;
     justify-content: end;
-    padding: 5px 100px 5px 0px;
-    background-color: var(--primary-color);
-    font-size: 25px;
-    gap: 36px;
-
-    i{
-        color: var(--tertiary-color);
-        transition: 0.5s;
-
-        &:hover{
-            color: var(--secondary-color);
-            filter: drop-shadow(0 0 5px var(--secondary-color));
-        }
-    }
+    align-items: center;
+    padding-right: 90px;
 }
+.wrapper .button{
+    display: block;
+    width: 40px;
+    height: 40px;
+    float: left;
+    margin: 0 5px ;
+    background: rgba(255, 255, 255, 0);
+    border-radius: 50px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    cursor: pointer;
+    transition: all 0.5s ease-out;
+}
+.wrapper .button:nth-child(1):hover .icon{
+    background-color: #075CE5;
+    color: #fff;
+}
+.wrapper .button:nth-child(2):hover .icon{
+    background-image: linear-gradient(225deg, #9F27E1, #FD1262, #FEAC08);
+    color: #fff;
+}
+.wrapper .button:nth-child(3):hover .icon{
+    background-color: #08D465;
+    color: #fff;
+}
+.wrapper .button .icon{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    line-height: 40px;
+    text-align: center;
+    transition: all 0.5s ease-out;
+}
+.wrapper .button .icon i{
+    font-size: 30px;
+    line-height: 40px;
+    transition: all 0.5s ease-out;
+}
+.wrapper .button span{
+    font-family: var(--primary-font);
+    font-weight: 500;
+    font-size: 20px;
+    color: var(--tertiary-color);
+    line-height: 40px;
+    margin-left: 10px;
+}
+.wrapper .button:hover{
+    width: 200px;
+}
+/* fim banner sociais */
 
+/* header */
 .container{
     display: flex;
     flex-direction: row;
@@ -54,7 +98,7 @@ nav{
         li{
             a{
                 font-size: 20px;
-                font-weight: 600;
+                font-weight: 800;
                 font-family: var(--primary-font);
                 text-decoration: none;
                 color: var(--tertiary-color);
@@ -94,3 +138,12 @@ nav{
         }
     }
 }
+/* fim header */
+
+/* banner vermelho (bandeira itália) */
+.bandeira{
+    width: 100%;
+    height: 50px;
+    background-color: var(--secondary-color);
+}
+/* fim banner vermelho (bandeira itália) */
