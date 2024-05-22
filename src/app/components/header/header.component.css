@@ -21,19 +21,19 @@
     cursor: pointer;
     transition: all 0.5s ease-out;
 }
-.wrapper>a .button:nth-child(1):hover .icon{
+.wrapper .button:nth-child(1):hover .icon{
     background-color: #075CE5;
     color: #fff;
 }
-.wrapper>a .button:nth-child(2):hover .icon{
+.wrapper .button:nth-child(2):hover .icon{
     background-image: linear-gradient(225deg, #9F27E1, #FD1262, #FEAC08);
     color: #fff;
 }
-.wrapper a .button:nth-child(3):hover .icon{
-    background-color: #08D465;
+.wrapper .button:nth-child(3):hover .icon{
+    background-color: #08d465;
     color: #fff;
 }
-.wrapper a .button .icon{
+.wrapper .button .icon{
     display: inline-block;
     width: 40px;
     height: 40px;
