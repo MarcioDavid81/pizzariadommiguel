@@ -1,5 +1,6 @@
 .rodape{
     background-image: url(../../../assets/Rodape.jpg);
+    max-width: 100%;
     background-size: cover;
     background-position: center;
     display: flex;
@@ -50,5 +51,25 @@
     a{
         color: white;
         text-decoration: none;
+    }
+}
+
+/*MEDIA QUERIES*/
+@media (width <= 1024px){
+    /*Footer*/
+    .rodape h3{
+        font-size: 40px;
+    }
+    .rodape iframe{
+        max-width: 90%;
+    }
+    .rodape p{
+        font-size: 16px;
+    }
+    .creditos{
+        display: flex;
+        justify-content: space-between;
+        font-size: 11px;
+        padding: 5px 10px 2px 10px;
     }
 }

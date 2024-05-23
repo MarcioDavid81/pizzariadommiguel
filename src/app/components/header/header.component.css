@@ -73,7 +73,6 @@
     display: flex;
     justify-content: left;
     align-items: center;
-    padding-right: 250px;
 }
 .logo>a>img{
     width: 115px;
@@ -147,3 +146,15 @@ nav{
     background-color: var(--secondary-color);
 }
 /* fim banner vermelho (bandeira itália) */
+
+/*MEDIA QUERIES*/
+@media (width <= 1024px){
+    /*Header*/
+    .sociais{
+        display: flex;
+        justify-content: center;
+    }
+    .btn-contato{
+        display: none;
+    }
+}
