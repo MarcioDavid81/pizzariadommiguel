@@ -349,7 +349,7 @@
         height: 100%;
 
         h2{
-            font-size: 60px;
+            font-size: 50px;
         }
 
         h3{
@@ -357,7 +357,7 @@
         }
 
         p{
-            font-size: 14px;
+            font-size: 15px;
         }
         .pizza>img{
             width: 430px;
@@ -372,11 +372,11 @@
     .cardapio{
         .header-cardapio{
             h2{
-                font-size: 60px;
+                font-size: 40px;
             }
 
             p{
-                font-size: 14px;
+                font-size: 15px;
             }
         }
 
@@ -394,7 +394,7 @@
                 }
 
                 p{
-                    font-size: 14px;
+                    font-size: 15px;
                 }
 
                 .price-item{
