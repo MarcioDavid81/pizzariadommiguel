@@ -15,5 +15,6 @@ import { RouterLink } from '@angular/router';
     imports: [HeaderComponent, NgOptimizedImage, FooterComponent, CardapioComponent, SobreComponent, BlogComponent, RouterLink]
 })
 export class HomeComponent {
+    
 
 }

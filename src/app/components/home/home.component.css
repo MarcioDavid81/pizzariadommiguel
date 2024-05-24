@@ -359,6 +359,14 @@
         p{
             font-size: 14px;
         }
+        .pizza>img{
+            width: 430px;
+            height: 470px;
+            padding-bottom: 100px;
+        }
+        .happy>img{
+            margin-right: 0;
+        }
     }
 
     .cardapio{
