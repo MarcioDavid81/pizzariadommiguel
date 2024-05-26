@@ -348,6 +348,12 @@
         justify-content: center;
         height: 100%;
 
+        .saudacao{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
         h2{
             font-size: 50px;
         }
@@ -477,6 +483,22 @@
             p{
                 font-size: 14px;
             }
+        }
+    }
+}
+
+@media (width < 768px){
+    .banner{
+        height: 500px;
+
+        h1{
+            font-size: 50px;
+        }
+
+        img{
+            width: 240px;
+            height: 80px;
+            margin-top: 0;
         }
     }
 }

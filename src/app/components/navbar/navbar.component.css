@@ -8,33 +8,66 @@
 .sociais1{
     background-color: var(--primary-color);
     width: 100%;
-    height: 40px;
+    height: 60px;
 }
 .sociais2{
     background-color: var(--secondary-color);
     width: 100%;
-    height: 40px;
-}
-.navbar{
-    padding: 10px;
-}
-.logo{
-    width: 100px;
     height: 60px;
 }
-.dropdown-menu a:hover{
+.logo{
+    width: 115px;
+    height: 70px;
+    transition: 0.5s;
+
+    &:hover{
+        transform: scale(1.05);
+        filter: drop-shadow(0 0 5px var(--primary-color));
+    }
+}
+button{
+    border: none;
+    margin-right: 80px;
+    transition: 0.5s;
+
+    &:hover{
+        transform: scale(1.05);
+        filter: drop-shadow(0 0 5px var(--primary-color));
+    }
+}
+span{
+    font-size: 30px;
+}
+.nav-item{
+    font-family: var(--primary-font);
+    margin-right: 50px;
+    transition: 0.5s;
+
+    &:hover{
+        transform: scale(1.05);
+    }
+}
+.dropdown-menu {
+    border: 1px solid rgb(234, 60, 60);
+
+    a:hover{
+    background-color: rgb(234, 60, 60);
+}
+}
+.dropdown-divider{
     background-color: rgb(234, 60, 60);
 }
 .zap{
+    font-family: var(--primary-font);
     color: green;
     margin-right: 50px;
     transition: 0.5s;
 }
 .zap:hover{
-    transform: scale(1.1);
+    transform: scale(1.05);
+    filter: drop-shadow(0 0 1px rgb(234, 60, 60));
 }
 .chama{
     color: rgb(0, 0, 0);
     text-decoration: none;
 }
-

@@ -31,6 +31,7 @@
     height: 100%;
     background-attachment: fixed;
     padding: 50px 0;
+    text-align: center;
 
     h1{
         font-family: var(--secondary-font);
@@ -38,6 +39,7 @@
         color: white;
     }
     p{
+        padding-bottom: 50px;
         font-family: var(--primary-font);
         font-size: 35px;
         color: white;
@@ -47,8 +49,9 @@
 
 .pizzas{
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 30px;
+    grid-template-columns: repeat(3, 1fr);
+    place-items: center;
+    gap: 40px;
 }
 
 /*card*/
@@ -172,8 +175,12 @@
 }
 
 /*MEDIA QUERIES*/
+
 @media (width <= 1024px){
   /*Home*/
+  .botao-whatsapp{
+    display: none;
+  }
   .banner{
       height: 500px;
 
@@ -199,10 +206,21 @@
   }
 
   .pizzas{
-      grid-template-columns: repeat(1, 1fr);
-  }
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+}
+
 }
 
 .menu-mobile.abrir-menu{
   width: 50%;
+}
+
+@media (width < 768px){
+  .pizzas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 }
