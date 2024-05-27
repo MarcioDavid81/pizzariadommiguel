@@ -11,6 +11,28 @@
   background-position: center;
 }
 
+.refrigerantes{
+  background-image: url(../../../assets/parede.jpg);
+    width: 100%;
+    height: 100%;
+    background-attachment: fixed;
+    padding: 50px 0;
+    text-align: center;
+
+    h1{
+        font-family: var(--secondary-font);
+        font-size: 70px;
+        color: white;
+    }
+    p{
+        padding-bottom: 50px;
+        font-family: var(--primary-font);
+        font-size: 35px;
+        color: white;
+        font-weight: 300;
+    }
+}
+
 /*Cards*/
 .products{
   display: grid;
@@ -41,7 +63,7 @@
 
   padding: 1rem;
   width: 14rem;
-  background-color: var(--primary-color);
+  background-color: #fefefe;
 
   border-radius: 1rem;
 
@@ -84,7 +106,7 @@
 
   font-size: 1rem;
   font-weight: 600;
-  color: var(--light);
+  color: var(--tertiary-color);
   text-transform: capitalize;
   text-wrap: nowrap;
   text-overflow: ellipsis;
@@ -92,7 +114,7 @@
 
 .size {
   font-size: 0.75rem;
-  color: var(--light);
+  color: var(--tertiary-color);
 }
 
 .list-size {
@@ -133,7 +155,7 @@
 .price {
   font-size: 1.5rem;
   font-weight: 700;
-  color: var(--light);
+  color: var(--tertiary-color);
 }
 
 .cart-button {
