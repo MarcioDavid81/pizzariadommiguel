@@ -12,7 +12,7 @@
     i{
         font-size: 70px;
         font-weight: 900;
-        color: var(--secondary-color);    
+        color: var(--secondary-color);
     }
     h2{
         font-family: var(--secondary-font);
@@ -30,13 +30,26 @@
         font-family: var(--primary-font);
         font-size: 20px;
         color: var(--tertiary-color);
-        margin: 20px 0 10px 0;    
+        margin: 20px 0 10px 0;
     }
     iframe{
         border-radius: 20px;
         margin: 20px 0 40px 0;
     }
 }
+.card {
+  width: fit-content;
+  height: fit-content;
+  background-color: rgb(238, 238, 238);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 25px 25px;
+  gap: 20px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.055);
+}
+
+
 
 .creditos{
     display: flex;
@@ -61,15 +74,36 @@
         font-size: 40px;
     }
     .rodape iframe{
-        max-width: 90%;
+        max-width: 80%;
     }
     .rodape p{
         font-size: 16px;
     }
     .creditos{
         display: flex;
-        justify-content: space-between;
+        justify-content: space-around;
         font-size: 11px;
-        padding: 5px 10px 2px 10px;
+        padding: 5px;
     }
+}
+
+/*MEDIA QUERIES*/
+@media (width < 768px){
+  /*Footer*/
+  .rodape h3{
+      font-size: 30px;
+  }
+  .rodape iframe{
+      max-width: 80%;
+  }
+  .rodape p{
+      font-size: 16px;
+  }
+  .creditos{
+      display: flex;
+      justify-content: space-around;
+      font-size: 9px;
+      padding: 5px;
+
+  }
 }

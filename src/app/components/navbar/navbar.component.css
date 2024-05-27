@@ -6,9 +6,26 @@
 }
 
 .sociais1{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 3%;
     background-color: var(--primary-color);
     width: 100%;
     height: 60px;
+    font-size: 40px;
+    color: black;
+    gap: 20px;
+
+
+    .insta:hover{
+        transform: scale(1.05);
+        color: #FD1262;
+    }
+    .face:hover{
+        transform: scale(1.05);
+        color: #0866FF;
+    }
 }
 .sociais2{
     background-color: var(--secondary-color);
@@ -70,4 +87,47 @@ span{
 .chama{
     color: rgb(0, 0, 0);
     text-decoration: none;
+}
+
+/*Media Queries*/
+@media (width <= 1024px){
+    .sociais1{
+        display: flex;
+        justify-content: center;
+        padding: 0;
+    }
+    .logo{
+        width: 100px;
+        height: 60px;
+    }
+    button{
+        margin-right: 20px;
+    }
+    .nav-item{
+        margin-right: 20px;
+    }
+    .zap{
+        margin-right: 20px;
+    }
+}
+
+@media (width <= 768px){
+    .sociais1{
+        display: flex;
+        justify-content: center;
+        padding: 0;
+    }
+    .logo{
+        width: 100px;
+        height: 60px;
+    }
+    button{
+        margin-right: 20px;
+    }
+    .nav-item{
+        margin-right: 20px;
+    }
+    .zap{
+        margin-right: 20px;
+    }
 }
